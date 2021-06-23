@@ -1,0 +1,10 @@
+{% extends 'main/start.html' %}
+
+{% for i in django_Pings %}
+                    <tr class='success'>
+                        <td>{{ i.idping }}</td>
+                        <td>{{ i.Hosts }}</td>
+                        <td>{{ i.Pings }}</td>
+                        <td>{{ i.Data }}</td>
+                    </tr>
+                        {% endfor %}
