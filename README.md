@@ -1,1 +1,1 @@
-# If that's the base inside the "TESTAPP" directory
+# If that is the main program in the "TESTAPP c" directory
