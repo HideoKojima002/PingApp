@@ -11,11 +11,21 @@ D
 checker/main/apps.py,c\1\c1aa31a93476cb824993cfaadf5b6577786f40d6
 S
 #checker/main/migrations/__init__.py,7\c\7c17a367f70450afd71fc588a6b3c6930b207700
-O
-checker/main/static/css/css.css,0\6\064955ac4cd82813cb9f10d8e5f812a4444486ad
 A
 checker/manage.py,8\2\82c1072851cf874f37fab51421bd9007417eeee8
 K
 checker/checker/settings.py,5\0\50f7b0b7e07fcd197ed78a470aed46f1eab11bd7
-L
-checker/main/static/js/js.js,e\8\e8e02bf6fd9535a8a4b7bd32e7a9f4b98f6ba70c
+U
+%checker/main/templates/main/base.html,f\8\f822a09c6b597a00365a9511c3b5c1d86a4d38e2
+G
+checker/checker/urls.py,4\4\44975b42b46d250beeabf776ce94a08e6203f58c
+D
+checker/main/urls.py,6\5\6574249b217ef82753c4a598f8c3b3782a36d15c
+E
+checker/main/views.py,2\1\21aa08785545b4d7f7a95a3825c262cfac56f627
+X
+(checker/main/templates/main/landing.html,1\3\1358af1006dd43f9aad951e51df31563561f9e1f
+F
+checker/main/models.py,1\3\13c9f11e7f7657b8c094d63c98c6255b8e5ece5c
+V
+&checker/main/templates/main/start.html,4\1\411d7aee56c55d9a82c18d4fef69438a4cd2daf5
