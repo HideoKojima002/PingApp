@@ -1,3 +1,0 @@
-
-}python:S101"fRename class "django_Pings" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(’à¢ú
-python:S117"^Rename this local variable "Response_List" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÒÏñ˜ùÿÿÿÿ8 ÔıÑ¤/
