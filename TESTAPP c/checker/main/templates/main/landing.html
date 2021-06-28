@@ -1,10 +1,14 @@
-{% extends 'main/start.html' %}
+{% extends 'main/base.html' %}
+{% block content %}
 
-{% for i in django_Pings %}
-                    <tr class='success'>
-                        <td>{{ i.idping }}</td>
-                        <td>{{ i.Hosts }}</td>
-                        <td>{{ i.Pings }}</td>
-                        <td>{{ i.Data }}</td>
-                    </tr>
-                        {% endfor %}
+<table class="table" >
+    {% for i in pings %}
+        <tr class='success'>
+            <td>{{ i.id }}</td>
+            <td>{{ i.Hosts }}</td>
+            <td>{{ i.Pings }}</td>
+            <td>{{ i.Data }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock content %}
