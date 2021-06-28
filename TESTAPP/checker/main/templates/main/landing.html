@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+  <style>
+   table {
+     margin: auto;
+   }
+  </style>
+<!--<div class="col-xs-12 col-md-7">-->
+    <table class="table table-striped auto__table  table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Host</th>
+          <th>Time</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in pings %}
+            <tr class='success'>
+                <td>{{ i.id }}</td>
+                <td>{{ i.Hosts }}</td>
+                <td>{{ i.Pings }}</td>
+                <td>{{ i.Data }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endblock content %}
+<!--</div>-->
